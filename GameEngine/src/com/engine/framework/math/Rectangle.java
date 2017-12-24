@@ -2,39 +2,40 @@ package com.engine.framework.math;
 
 public class Rectangle extends Vector2{
 
-	int width, height;
+	public float width, height;
 	
 	public Rectangle() {
 		
 	}
 	
-	public Rectangle(float x, float y, int width, int height) {
+	public Rectangle(float x, float y, float width, float height) {
 		super(x, y);
 		this.width = width;
 		this.height = height;
 	}
-	
-	public int width() {
-		return this.width;
+
+	public float top() {
+		return y;
 	}
-	
-	public void width(int width) {
-		this.width = width;
+
+	public float bottom() {
+		return y + height;
 	}
-	
-	public int height() {
-		return this.height;
+
+	public float left() {
+		return x;
 	}
-	
-	public void height(int height) {
-		this.height = height;
+
+	public float right() {
+		return x + width;
 	}
-	
-	public void clamp(int x1, int y1, int x2, int y2) {
-		if(x < x1) x = x1;
-		if(x + width > x2) x = x2 - width;
-		if(y < y1) y = y1;
-		if(y + height > y2) y = y2 - height;
+
+
+	public void clamp(float x1, float y1, float x2, float y2) {
+		if(left() < x1) x = x1;
+		if(right() > x2) x = x2 - width;
+		if(top() < y1) y = y1;
+		if(bottom() > y2) y = y2 - height;
 	}
 	
 	public boolean collidesWith(Rectangle r) {

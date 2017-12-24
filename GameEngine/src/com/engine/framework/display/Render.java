@@ -42,10 +42,10 @@ public class Render {
 		// set the color of the quad (R,G,B,A)
 		glColor4f(c.getRed()/255.0f, c.getGreen()/255.0f, c.getBlue()/255.0f, c.getAlpha()/255.0f);
 		glBegin(GL_QUADS);
-		glVertex2f(r.x(),r.y());
-		glVertex2f(r.x()+r.width(),r.y());
-		glVertex2f(r.x()+r.width(),r.y()+r.height());
-		glVertex2f(r.x(),r.y()+r.height());
+		glVertex2f(r.left(),r.top());
+		glVertex2f(r.right(),r.top());
+		glVertex2f(r.right(),r.bottom());
+		glVertex2f(r.left(),r.bottom());
 		glEnd();
 	}
 	
@@ -54,10 +54,10 @@ public class Render {
 		glEnable(GL_TEXTURE_2D);
 		glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
 		glBegin(GL_QUADS);
-		glTexCoord2f(0, 0); glVertex2f(r.x(), r.y());
-		glTexCoord2f(1, 0); glVertex2f(r.x()+r.width(),r.y());
-		glTexCoord2f(1, 1); glVertex2f(r.x()+r.width(),r.y()+r.height());
-		glTexCoord2f(0, 1); glVertex2f(r.x(),r.y()+r.height());
+		glTexCoord2f(0, 0); glVertex2f(r.left(), r.top());
+		glTexCoord2f(1, 0); glVertex2f(r.right(),r.top());
+		glTexCoord2f(1, 1); glVertex2f(r.right(),r.bottom());
+		glTexCoord2f(0, 1); glVertex2f(r.left(),r.bottom());
 		glEnd();
 		glDisable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D, 0);
@@ -69,10 +69,10 @@ public class Render {
 		glEnable(GL_TEXTURE_2D);
 		glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
 		glBegin(GL_QUADS);
-		glTexCoord2f(src.x()/tex.width, src.y()/tex.height); glVertex2f(r.x(), r.y());
-		glTexCoord2f((src.x()+src.width())/tex.width, src.y()/tex.height); glVertex2f(r.x()+r.width(),r.y());
-		glTexCoord2f((src.x()+src.width())/tex.width, (src.y()+src.height())/tex.height); glVertex2f(r.x()+r.width(),r.y()+r.height());
-		glTexCoord2f(src.x()/tex.width, (src.y()+src.height())/tex.height); glVertex2f(r.x(),r.y()+r.height());
+		glTexCoord2f(src.x/tex.width, src.y/tex.height); glVertex2f(r.x, r.y);
+		glTexCoord2f((src.x+src.width)/tex.width, src.y/tex.height); glVertex2f(r.x+r.width,r.y);
+		glTexCoord2f((src.x+src.width)/tex.width, (src.y+src.height)/tex.height); glVertex2f(r.x+r.width,r.y+r.height);
+		glTexCoord2f(src.x/tex.width, (src.y+src.height)/tex.height); glVertex2f(r.x,r.y+r.height);
 		glEnd();
 		glDisable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D, 0);
