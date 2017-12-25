@@ -30,6 +30,9 @@ public class Rectangle extends Vector2{
 		return x + width;
 	}
 
+	public Vector2 center() {
+		return new Vector2(x + width/2, y + height/2);
+	}
 
 	public void clamp(float x1, float y1, float x2, float y2) {
 		if(left() < x1) x = x1;
