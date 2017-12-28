@@ -41,6 +41,7 @@ public class Pongu extends Render implements Game {
 
     @Override
     public void draw() {
+
         drawFullCircle(ball.position, ball.radius, ball.color);
         drawRectangle(player1.rectangle, player1.color);
         drawRectangle(player2.rectangle, player2.color);
