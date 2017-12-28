@@ -10,14 +10,19 @@ import com.engine.framework.Runner;
 import com.engine.framework.display.Render;
 import com.engine.framework.display.Texture;
 import com.engine.framework.math.Rectangle;
+import com.engine.framework.math.Vector2;
 
 public class Main extends Render implements Game {
 
-	Rectangle player = new Rectangle(50, 50, 64, 96);
+	Rectangle player = new Rectangle(0, 0, 64, 96);
 	Rectangle[] src = new Rectangle[2];
 	int imageIndex = 0;
 	int imageCount = 1;
+	float angle = 90;
 	Texture tex;
+
+	Rectangle ball = new Rectangle(0, 0, 20, 20);
+	Vector2 speed = new Vector2(5, 5);
 	
 	public static void main(String[] args) {
 		
@@ -42,6 +47,18 @@ public class Main extends Render implements Game {
 		if(Input.keys[GLFW_KEY_RIGHT])  player.add(7, 0);
 		if(Input.keys[GLFW_KEY_UP]) player.add(0, -7);
 		if(Input.keys[GLFW_KEY_DOWN])  player.add(0, 7);
+
+		angle+=1;
+		ball.x += speed.x;
+		ball.y += speed.y;
+
+		if (ball.x <=0 || ball.x >= 1280 - ball.width || ball.collidesWith(player)) {
+			speed.x *= -1;
+		}
+
+		if (ball.y <=0 || ball.y >= 720 - ball.height || ball.collidesWith(player)) {
+			speed.y *= -1;
+		}
 		
 		if(imageCount > 0) {
 			imageCount --;
@@ -59,7 +76,8 @@ public class Main extends Render implements Game {
 	
 	@Override
 	public void draw() {
-		this.drawImage(player, src[imageIndex], tex);
+		this.drawImage(player, src[imageIndex], angle, tex);
+		this.drawFullCircle(ball, ball.width/2, Color.red);
 	}
 	
 }
