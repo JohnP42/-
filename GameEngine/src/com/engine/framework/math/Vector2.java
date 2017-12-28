@@ -33,5 +33,8 @@ public class Vector2 {
 		this.x = x;
 		this.y = y;
 	}
-	
+
+	public float magnitude() {
+		return (float) Math.sqrt(x*x + y*y);
+	}
 }

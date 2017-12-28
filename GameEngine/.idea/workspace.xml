@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Paddle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Paddle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/engine/pongu/Paddle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,12 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vector2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Vector2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/engine/framework/math/Vector2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+              <folding>
+                <element signature="e#545#546#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/engine/graphics/VertexArray.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/engine/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/engine/framework/math/Vector2.java" />
         <option value="$PROJECT_DIR$/src/com/engine/framework/math/Matrix4f.java" />
         <option value="$PROJECT_DIR$/src/com/engine/framework/math/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/com/engine/framework/display/Render.java" />
@@ -186,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/com/engine/pongu/Pongu.java" />
         <option value="$PROJECT_DIR$/src/com/engine/pongu/Ball.java" />
         <option value="$PROJECT_DIR$/src/com/engine/pongu/Paddle.java" />
+        <option value="$PROJECT_DIR$/src/com/engine/framework/math/Vector2.java" />
       </list>
     </option>
   </component>
@@ -237,6 +239,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameEngine" type="b2602c69:ProjectViewProjectNode" />
@@ -546,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/engine/framework/math/Vector2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/engine/framework/math/Matrix4f.java" />
     <entry file="jar://$PROJECT_DIR$/../lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl-sources.jar!/org/lwjgl/opengl/GL11.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -637,10 +639,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/engine/pongu/Paddle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/engine/framework/math/Vector2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#545#546#0" expanded="true" />
           </folding>
         </state>
       </provider>
