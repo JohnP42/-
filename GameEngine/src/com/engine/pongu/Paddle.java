@@ -42,6 +42,7 @@ public class Paddle {
             }
         }
 
+        rectangle.clamp(0, 0, Pongu.WIDTH, Pongu.HEIGHT);
     }
 
     private void contactBall(Ball ball) {
