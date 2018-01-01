@@ -48,7 +48,7 @@
       <file leaf-file-name="GLFWScrollCallbackI.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-sources.jar!/org/lwjgl/glfw/GLFWScrollCallbackI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="136">
               <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
@@ -65,17 +65,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/engine/bow/Bow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+            <state relative-caret-position="-60">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shootaman.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shootaman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/engine/bow/Shootaman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/com/engine/framework/Input.java" />
         <option value="$PROJECT_DIR$/src/com/engine/framework/Runner.java" />
         <option value="$PROJECT_DIR$/src/com/engine/framework/display/Render.java" />
-        <option value="$PROJECT_DIR$/src/com/engine/bow/Bow.java" />
         <option value="$PROJECT_DIR$/src/com/engine/bow/Shootaman.java" />
+        <option value="$PROJECT_DIR$/src/com/engine/bow/Bow.java" />
       </list>
     </option>
   </component>
@@ -770,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-sources.jar!/org/lwjgl/glfw/GLFWScrollCallbackI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/engine/framework/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -802,20 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/engine/bow/Bow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/engine/bow/Shootaman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -826,6 +804,28 @@
             <element signature="e#839#840#0" expanded="true" />
             <element signature="e#879#880#0" expanded="true" />
             <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-sources.jar!/org/lwjgl/glfw/GLFWScrollCallbackI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/engine/bow/Bow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
           </folding>
         </state>
       </provider>

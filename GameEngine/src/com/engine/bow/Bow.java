@@ -11,7 +11,7 @@ import static org.lwjgl.glfw.GLFW.*;
 public class Bow {
 
     static final float ROTATESPEED = 2;
-    static final float OFFSET = 0;
+    static final float OFFSET = 135;
     static final float MAXPOWER = 60;
     static final float INCREMENT = 20;
     static final int CHARGETIME = 5;
