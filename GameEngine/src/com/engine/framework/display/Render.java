@@ -103,10 +103,32 @@ public class Render {
 		glTranslatef(r.center().x, r.center().y, 0);
 		glRotatef(angle, 0, 0, 1);
 		glBegin(GL_QUADS);
-			glTexCoord2f(src.x/tex.width, src.y/tex.height); glVertex2f(-r.width/2,-r.height/2);
-			glTexCoord2f((src.x+src.width)/tex.width, src.y/tex.height); glVertex2f(r.width/2,-r.height/2);
-			glTexCoord2f((src.x+src.width)/tex.width, (src.y+src.height)/tex.height); glVertex2f(r.width/2,r.height/2);
-			glTexCoord2f(src.x/tex.width, (src.y+src.height)/tex.height); glVertex2f(-r.width/2,r.height/2);
+		glTexCoord2f(src.x/tex.width, src.y/tex.height); glVertex2f(-r.width/2,-r.height/2);
+		glTexCoord2f((src.x+src.width)/tex.width, src.y/tex.height); glVertex2f(r.width/2,-r.height/2);
+		glTexCoord2f((src.x+src.width)/tex.width, (src.y+src.height)/tex.height); glVertex2f(r.width/2,r.height/2);
+		glTexCoord2f(src.x/tex.width, (src.y+src.height)/tex.height); glVertex2f(-r.width/2,r.height/2);
+		glEnd();
+		glPopMatrix();
+		glDisable(GL_TEXTURE_2D);
+		glBindTexture(GL_TEXTURE_2D, 0);
+		glFlush();
+	}
+
+	/*
+	*Draw Image with Rotation at an origin. With an origin of 0,0 being the top-left of the image.
+	 */
+	public void drawImage(Rectangle r, Rectangle src, float angle, Vector2 origin,Texture tex) {
+		glBindTexture(GL_TEXTURE_2D, tex.texture);
+		glEnable(GL_TEXTURE_2D);
+		glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
+		glPushMatrix();
+		glTranslatef(r.x + origin.x, r.y + origin.y, 0);
+		glRotatef(angle, 0, 0, 1);
+		glBegin(GL_QUADS);
+		glTexCoord2f(src.x/tex.width, src.y/tex.height); glVertex2f(-origin.x, -origin.y);
+		glTexCoord2f((src.x+src.width)/tex.width, src.y/tex.height); glVertex2f(r.width - origin.x,-origin.y);
+		glTexCoord2f((src.x+src.width)/tex.width, (src.y+src.height)/tex.height); glVertex2f(r.width - origin.x,r.height - origin.y);
+		glTexCoord2f(src.x/tex.width, (src.y+src.height)/tex.height); glVertex2f(-origin.x,r.height - origin.y);
 		glEnd();
 		glPopMatrix();
 		glDisable(GL_TEXTURE_2D);

@@ -4,13 +4,14 @@ import com.engine.framework.Input;
 import com.engine.framework.display.Render;
 import com.engine.framework.display.Texture;
 import com.engine.framework.math.Rectangle;
+import com.engine.framework.math.Vector2;
 
 import static org.lwjgl.glfw.GLFW.*;
 
 public class Bow {
 
     static final float ROTATESPEED = 2;
-    static final float OFFSET = 135;
+    static final float OFFSET = 0;
     static final float MAXPOWER = 60;
     static final float INCREMENT = 20;
     static final int CHARGETIME = 5;
