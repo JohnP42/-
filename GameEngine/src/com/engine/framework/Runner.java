@@ -14,6 +14,7 @@ public class Runner implements Runnable {
 
 	long window;
 	int width, height;
+	boolean showMouse;
 	Color bgColor;
 	String title;
 	Thread thread;
@@ -25,19 +26,30 @@ public class Runner implements Runnable {
 		height = 720;
 		title = "Game";
 		bgColor = new Color(0,128,128);
+		showMouse = true;
 	}
 	
 	public Runner(int width, int height) {
 		this.width = width;
 		this.height = height;
 		bgColor = new Color(0,128,128);
+		showMouse = true;
 	}
-	
+
 	public Runner(int width, int height, String title, Color c) {
 		this.width = width;
 		this.height = height;
 		this.title = title;
 		bgColor = c;
+		showMouse = true;
+	}
+
+	public Runner(int width, int height, String title, Color c, boolean showMouse) {
+		this.width = width;
+		this.height = height;
+		this.title = title;
+		bgColor = c;
+		this.showMouse = showMouse;
 	}
 	
 	public void start() {
@@ -57,18 +69,18 @@ public class Runner implements Runnable {
 	public void run() {	
 		
 		try {
-			window = Screen.init(window, width, height, title);
+			window = Screen.init(window, width, height, title, showMouse);
 			
 			render.init(width, height, bgColor);
 			game.load();
 			
 			while(Screen.running(window)) {
-				
+
 				game.update();
-				
 				glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clear the framebuffer
 				render.draw();		
 				glfwSwapBuffers(window);
+				Input.resetScroll();
 				glfwPollEvents();
 			}
 			
