@@ -25,7 +25,7 @@ public class Shootaman extends Render implements Game {
     @Override
     public void load() {
         Bow.load();
-        bow = new Bow(new Rectangle(0, 0, 48, 48));
+        bow = new Bow(new Rectangle(16, HEIGHT - 64, 48, 48));
     }
 
     @Override
