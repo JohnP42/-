@@ -6,19 +6,21 @@ import com.engine.framework.display.Texture;
 import com.engine.framework.math.Rectangle;
 import com.engine.framework.math.Vector2;
 
+import java.util.ArrayList;
+
 import static org.lwjgl.glfw.GLFW.*;
 
 public class Bow {
 
-    static final float ROTATESPEED = 2;
     static final float OFFSET = 135;
-    static final float MAXPOWER = 60;
-    static final float INCREMENT = 20;
-    static final int CHARGETIME = 5;
+    static final float MAXPOWER = 45;
+    static final float INCREMENT = 15;
+    static final int CHARGETIME = 8;
 
     float power;
     float dir;
     Rectangle body;
+    ArrayList<Arrow> arrows = new ArrayList<>();
 
     static Texture texture;
     Rectangle[] src;
@@ -50,14 +52,23 @@ public class Bow {
     public void update() {
         handleRotation();
         shoot();
+        arrows.forEach((Arrow a) -> {
+            a.update();
+        });
     }
 
     public void draw(Render render) {
         render.drawImage(body, src[imageIndex], dir + OFFSET, texture);
+        arrows.forEach((Arrow a) -> {
+            render.drawImage(
+                    new Rectangle(a.pos.x, a.pos.y, 48, 48),
+                    new Rectangle(16, 0, 16, 16),
+                    a.dir + OFFSET, texture);
+        });
     }
 
     private void shoot() {
-        if (Input.keys[GLFW_KEY_SPACE]) {
+        if (Input.mouseButtons[GLFW_MOUSE_BUTTON_1]) {
             if (counter <= 0 && power < MAXPOWER) {
                 power += INCREMENT;
                 counter = CHARGETIME;
@@ -69,20 +80,20 @@ public class Bow {
             }
         }
         else if (power > 0) {
+            float rd = (float) Math.toRadians(dir);
+            Vector2 p = new Vector2(body.x, body.y);
+            Vector2 v = new Vector2((float) Math.cos(rd) * power, (float) Math.sin(rd) * power);
+            arrows.add(new Arrow(p, v, dir));
             imageIndex = 0;
             counter = 0;
             power = 0;
-            // TODO: Create Arrow
         }
     }
 
     private void handleRotation() {
-        if (Input.keys[GLFW_KEY_A]) {
-            dir -= ROTATESPEED;
-        }
-        else if (Input.keys[GLFW_KEY_D]) {
-            dir += ROTATESPEED;
-        }
+        float rise = (float) (Input.mouseY - body.center().y);
+        float run = (float) (Input.mouseX - body.center().x);
+        dir = (float) Math.toDegrees(Math.atan2(rise, run));
     }
 
     private void srcRects() {
