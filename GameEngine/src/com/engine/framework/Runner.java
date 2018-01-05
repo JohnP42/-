@@ -28,10 +28,19 @@ public class Runner implements Runnable {
 		bgColor = new Color(0,128,128);
 		showMouse = true;
 	}
+
+	public Runner(String title) {
+		width = 1280;
+		height = 720;
+		this.title = title;
+		bgColor = new Color(0,128,128);
+		showMouse = true;
+	}
 	
 	public Runner(int width, int height) {
 		this.width = width;
 		this.height = height;
+		title = "Game";
 		bgColor = new Color(0,128,128);
 		showMouse = true;
 	}
