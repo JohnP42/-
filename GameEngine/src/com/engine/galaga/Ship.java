@@ -9,12 +9,15 @@ import java.util.ArrayList;
 
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_LEFT;
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_RIGHT;
+import static org.lwjgl.glfw.GLFW.GLFW_KEY_SPACE;
 
 public class Ship {
 
     Rectangle body;
     float speed;
     int hp;
+    int cooldown = 15;
+    int cooldownCounter = 0;
 
     ArrayList<Lazer> firedLazers;
 
@@ -40,10 +43,13 @@ public class Ship {
     public void update() {
         animate();
         move();
+        shoot();
+        firedLazers.forEach(l -> l.update());
     }
 
     public void draw(Render r) {
         r.drawImage(body, src[imageIndex], texture);
+        firedLazers.forEach(l -> l.draw(r));
     }
 
     private void animate() {
@@ -64,6 +70,14 @@ public class Ship {
             body.x += speed;
         }
         body.clamp(0, 0, Galaga.WIDTH, Galaga.HEIGHT);
+    }
+
+    private void shoot() {
+        if (Input.keys[GLFW_KEY_SPACE] && cooldownCounter == 0) {
+            firedLazers.add(new Lazer(15f, new Rectangle(body.x + body.width/2 - 2, body.y, 4, 24)));
+            cooldownCounter = cooldown;
+        }
+        if (cooldownCounter > 0) cooldownCounter--;
     }
 
     private void srcRects() {
