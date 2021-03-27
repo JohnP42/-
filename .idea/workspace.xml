@@ -1,60 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea8d891-7392-4507-bd2a-aa92c9e7e9c3" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="3ea8d891-7392-4507-bd2a-aa92c9e7e9c3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/.idea/libraries/lwjgl_openal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/GameEngine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/assets/bow_and_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/resources/assets/bow_and_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/assets/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/resources/assets/ship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/bow/Arrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/bow/Bow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/bow/Shootaman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/bow/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/display/Render.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/display/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/display/Texture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/math/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/framework/math/Vector2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/galaga/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/galaga/Galaga.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/galaga/Lazer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/galaga/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/jumpu/Jumpu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/jumpu/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/pongu/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/pongu/Paddle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/pongu/Pongu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/utils/BufferUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/out/production/GameEngine/com/engine/utils/ShaderUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/bow/Arrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/bow/Arrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/bow/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/bow/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/bow/Shootaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/bow/Shootaman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/bow/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/bow/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/display/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/display/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/display/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/display/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/display/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/display/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/math/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/math/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/framework/math/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/framework/math/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/galaga/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/galaga/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/galaga/Galaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/galaga/Galaga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/galaga/Lazer.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/galaga/Lazer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/galaga/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/galaga/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/jumpu/Jumpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/jumpu/Jumpu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/jumpu/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/jumpu/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/pongu/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/pongu/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/pongu/Paddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/pongu/Paddle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/pongu/Pongu.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/pongu/Pongu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/utils/BufferUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/utils/BufferUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/utils/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/src/com/engine/utils/ShaderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/engine/utils/ShaderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/build.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/assimp_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/lwjgl-assimp-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/lwjgl-assimp-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/lwjgl-assimp-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/lwjgl-assimp-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/lwjgl-assimp-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-assimp/lwjgl-assimp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/bgfx_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/lwjgl-bgfx-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/lwjgl-bgfx-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/lwjgl-bgfx-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/lwjgl-bgfx-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/lwjgl-bgfx-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-bgfx/lwjgl-bgfx.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-egl/khronos_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-egl/lwjgl-egl-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-egl/lwjgl-egl-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-egl/lwjgl-egl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/glfw_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-glfw/lwjgl-glfw.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jawt/lwjgl-jawt-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jawt/lwjgl-jawt-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jawt/lwjgl-jawt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/jemalloc_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/lwjgl-jemalloc-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/lwjgl-jemalloc-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/lwjgl-jemalloc-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/lwjgl-jemalloc-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-jemalloc/lwjgl-jemalloc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lmdb_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lwjgl-lmdb-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lwjgl-lmdb-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lwjgl-lmdb-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lwjgl-lmdb-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lwjgl-lmdb-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lmdb/lwjgl-lmdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lwjgl-lz4-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lwjgl-lz4-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lwjgl-lz4-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lwjgl-lz4-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lwjgl-lz4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lwjgl-lz4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-lz4/lz4_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/lwjgl-nanovg-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/lwjgl-nanovg-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/lwjgl-nanovg-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/lwjgl-nanovg-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/lwjgl-nanovg-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/lwjgl-nanovg.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/nanosvg_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nanovg/nanovg_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/lwjgl-nfd-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/lwjgl-nfd-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/lwjgl-nfd-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/lwjgl-nfd-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/lwjgl-nfd-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/lwjgl-nfd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nfd/nfd_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nuklear/lwjgl-nuklear-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nuklear/lwjgl-nuklear-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nuklear/lwjgl-nuklear-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nuklear/lwjgl-nuklear-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nuklear/lwjgl-nuklear-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-nuklear/lwjgl-nuklear.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-odbc/lwjgl-odbc-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-odbc/lwjgl-odbc-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-odbc/lwjgl-odbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/lwjgl-openal-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/lwjgl-openal-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/lwjgl-openal-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/lwjgl-openal-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/lwjgl-openal-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/lwjgl-openal.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openal/openal_soft_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opencl/khronos_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opencl/lwjgl-opencl-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opencl/lwjgl-opencl-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opencl/lwjgl-opencl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/khronos_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengl/lwjgl-opengl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/khronos_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/lwjgl-opengles-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/lwjgl-opengles-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/lwjgl-opengles-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/lwjgl-opengles-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/lwjgl-opengles-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-opengles/lwjgl-opengles.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/lwjgl-openvr-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/lwjgl-openvr-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/lwjgl-openvr-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/lwjgl-openvr-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/lwjgl-openvr-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/lwjgl-openvr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-openvr/openvr_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/lwjgl-ovr-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/lwjgl-ovr-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/lwjgl-ovr-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/lwjgl-ovr-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/lwjgl-ovr-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/lwjgl-ovr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-ovr/oculus_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-par/lwjgl-par-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-par/lwjgl-par-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-par/lwjgl-par-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-par/lwjgl-par-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-par/lwjgl-par-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-par/lwjgl-par.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-remotery/lwjgl-remotery-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-remotery/lwjgl-remotery-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-remotery/lwjgl-remotery-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-remotery/lwjgl-remotery-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-remotery/lwjgl-remotery-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-remotery/lwjgl-remotery.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-rpmalloc/lwjgl-rpmalloc-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-rpmalloc/lwjgl-rpmalloc-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-rpmalloc/lwjgl-rpmalloc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-sse/lwjgl-sse-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-sse/lwjgl-sse-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-sse/lwjgl-sse-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-sse/lwjgl-sse-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-sse/lwjgl-sse-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-sse/lwjgl-sse.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-stb/lwjgl-stb-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-stb/lwjgl-stb-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-stb/lwjgl-stb-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-stb/lwjgl-stb-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-stb/lwjgl-stb-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-stb/lwjgl-stb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/lwjgl-tinyexr-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/lwjgl-tinyexr-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/lwjgl-tinyexr-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/lwjgl-tinyexr-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/lwjgl-tinyexr-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/lwjgl-tinyexr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyexr/tinyexr_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/lwjgl-tinyfd-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/lwjgl-tinyfd-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/lwjgl-tinyfd-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/lwjgl-tinyfd-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/lwjgl-tinyfd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-tinyfd/tinyfd_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-vulkan/khronos_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-vulkan/lwjgl-vulkan-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-vulkan/lwjgl-vulkan-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-vulkan/lwjgl-vulkan.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/lwjgl-xxhash-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/lwjgl-xxhash-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/lwjgl-xxhash-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/lwjgl-xxhash-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/lwjgl-xxhash-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/lwjgl-xxhash.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-xxhash/xxhash_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/lwjgl-yoga-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/lwjgl-yoga-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/lwjgl-yoga-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/lwjgl-yoga-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/lwjgl-yoga-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/lwjgl-yoga.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-yoga/yoga_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/lwjgl-zstd-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/lwjgl-zstd-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/lwjgl-zstd-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/lwjgl-zstd-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/lwjgl-zstd-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/lwjgl-zstd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl-zstd/zstd_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/dyncall_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/lwjgl-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/lwjgl-natives-linux.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/lwjgl-natives-macos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/lwjgl-natives-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/lwjgl-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-3.1.4/lwjgl/lwjgl.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GameEngine/src/com/engine/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GLFW_KEY_LEFT</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GameEngine/src/com/engine/Main.java" />
+        <option value="$PROJECT_DIR$/GameEngine/src/com/engine/galaga/Ship.java" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/test/src/main/java/engine/Main.java" />
+      </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="83" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="197" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1qJY2PygcX5eU6Rn41KppNkJku2" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -66,138 +311,111 @@
             <path>
               <item name="TestEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="GameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="GameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="GameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="GameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GameEngine" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JohnP\Documents\GitHub\TestEngine\test\src\main\resources" />
+      <recent name="C:\Users\JohnP\Documents\GitHub\TestEngine\test\src\main\java" />
+      <recent name="C:\Users\JohnP\Documents\GitHub\TestEngine\GameEngine\src" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -208,57 +426,170 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514156408696</updated>
+      <workItem from="1583017264760" duration="2062000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2062000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="83" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18723176" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/com/engine/Main.java">
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/engine/galaga/Galaga.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/engine/galaga/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/engine/framework/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/engine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
